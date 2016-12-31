@@ -15,3 +15,6 @@ bornerDans (x,y,z)
 isInside(x,y,z)
     | z >= x && z <= y = "Inside"
     | otherwise = "Outside"
+orderTuple x 
+    | fst(x) < snd(x) = x
+    | otherwise = (snd(x), fst(x))
