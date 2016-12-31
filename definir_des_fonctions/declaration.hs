@@ -18,3 +18,4 @@ isInside(x,y,z)
 orderTuple x 
     | fst(x) < snd(x) = x
     | otherwise = (snd(x), fst(x))
+vectorSum(x,y) = (fst(x)+fst(y),snd(x)+snd(y))
