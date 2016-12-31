@@ -12,3 +12,6 @@ bornerDans (x,y,z)
     | otherwise = max
   where min = myMin(x,y)
         max = myMax(x,y)
+isInside(x,y,z)
+    | z >= x && z <= y = "Inside"
+    | otherwise = "Outside"

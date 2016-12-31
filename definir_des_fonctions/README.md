@@ -10,3 +10,5 @@ https://openclassrooms.com/courses/apprenez-la-programmation-fonctionnelle-avec-
   * bornerDans 5 7 6 = 6 -- dans l'intervalle
   * bornerDans 5 7 4 = 5 -- trop petit
   * bornerDans 5 7 9 = 7 -- trop grand
+
+4. Codez une fonction qui prend trois arguments et dit si le troisième argument est dans l'intervalle fermé formé par les deux premiers arguments (on considèrera que le premier argument est inférieur ou égal au deuxième)
