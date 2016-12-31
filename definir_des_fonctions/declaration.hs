@@ -6,3 +6,9 @@ myMax (x, y)
     | x < y = y
     | otherwise = x
 myMaxFor4 (w,x,y,z) = myMax(myMax(w,x), myMax(y,z))
+bornerDans (x,y,z) 
+    | z >= min && z <= max = z
+    | z < min = min
+    | otherwise = max
+  where min = myMin(x,y)
+        max = myMax(x,y)
