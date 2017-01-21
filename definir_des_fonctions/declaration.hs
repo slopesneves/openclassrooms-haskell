@@ -19,3 +19,4 @@ orderTuple x
     | fst(x) < snd(x) = x
     | otherwise = (snd(x), fst(x))
 vectorSum(x,y) = (fst(x)+fst(y),snd(x)+snd(y))
+vectorNorme(x,y) = sqrt(x^2+y^2)
